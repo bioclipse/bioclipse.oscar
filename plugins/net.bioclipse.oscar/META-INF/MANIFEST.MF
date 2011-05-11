@@ -20,4 +20,5 @@ Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Import-Package: org.apache.log4j
 Bundle-ActivationPolicy: lazy
 Bundle-ClassPath: .,
- jars/oscar4-4.0.1.jar
+ jars/oscar4-4.0.1.jar,
+ jars/jericho-html-3.2.jar

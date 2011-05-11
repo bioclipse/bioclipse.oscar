@@ -37,4 +37,11 @@ public interface IOscarManager extends IBioclipseManager {
     )
     public List<IMolecule> findResolvedNamedEntities(String text);
 
+    @Recorded
+    @PublishedMethod(
+    	methodSummary="Extracts plain text from a HTML document.",
+    	params="String html"
+    )
+    public String extractText(String html);
+    
 }

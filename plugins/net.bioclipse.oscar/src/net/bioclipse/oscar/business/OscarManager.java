@@ -19,6 +19,7 @@ import net.bioclipse.cdk.business.CDKManager;
 import net.bioclipse.core.business.BioclipseException;
 import net.bioclipse.core.domain.IMolecule;
 import net.bioclipse.managers.business.IBioclipseManager;
+import net.htmlparser.jericho.Source;
 
 import org.apache.log4j.Logger;
 import org.openscience.cdk.io.formats.CMLFormat;
@@ -81,5 +82,10 @@ public class OscarManager implements IBioclipseManager {
     		}
     	}
     	return mols;
+    }
+
+    public String extractText(String html) {
+    	Source source = new Source(html);
+    	return source.getTextExtractor().toString();
     }
 }
