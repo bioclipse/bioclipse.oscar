@@ -67,7 +67,7 @@ public class OscarManager implements IBioclipseManager {
 					mol = cdk.loadMolecule(
 						new ByteArrayInputStream(
 							structure.getValue().getBytes()
-						), (IChemFormat)CMLFormat.getInstance(), null
+						), (IChemFormat)CMLFormat.getInstance(), null, null
 					);
 	    		    mols.add(mol);
 				} catch (BioclipseException e) {
