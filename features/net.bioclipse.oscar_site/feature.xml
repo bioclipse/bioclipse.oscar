@@ -10,8 +10,8 @@
       Oscar4 text-mining support.
    </description>
 
-   <license url="">
-      
+   <license url="http://www.eclipse.org/org/documents/epl-v10.php">
+      EPL + exception to allow GPL plugins.
    </license>
 
    <url>
