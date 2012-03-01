@@ -3,19 +3,21 @@
       id="net.bioclipse.oscar_site"
       label="Bioclipse-Oscar Update Site"
       version="2.5.0.qualifier"
-      provider-name="The Bioclipse Team">
+      provider-name="The Bioclipse Team"
+      plugin="net.bioclipse.oscar">
 
-   <description url="http://www.example.com/description">
-      [Enter Feature Description here.]
+   <description>
+      Oscar4 text-mining support.
    </description>
 
-   <copyright url="http://www.example.com/copyright">
-      [Enter Copyright Description here.]
-   </copyright>
-
-   <license url="http://www.example.com/license">
-      [Enter License Description here.]
+   <license url="">
+      
    </license>
+
+   <url>
+      <discovery label="Oscar4 Homepage" url="https://bitbucket.org/wwmm/oscar4/wiki/Home"/>
+      <discovery label="Oscar4 paper in JChemInf" url="http://www.jcheminf.com/content/3/1/41"/>
+   </url>
 
    <includes
          id="net.bioclipse.oscar_feature"
