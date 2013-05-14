@@ -14,11 +14,12 @@
       EPL + exception to allow GPL plugins.
    </license>
 
+<!--
    <url>
       <discovery label="Oscar4 Homepage" url="https://bitbucket.org/wwmm/oscar4/wiki/Home"/>
       <discovery label="Oscar4 paper in JChemInf" url="http://www.jcheminf.com/content/3/1/41"/>
    </url>
-
+-->
    <includes
          id="net.bioclipse.oscar_feature"
          version="0.0.0"/>
