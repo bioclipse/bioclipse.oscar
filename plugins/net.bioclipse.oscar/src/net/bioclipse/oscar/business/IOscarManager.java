@@ -19,7 +19,8 @@ import net.bioclipse.core.domain.IMolecule;
 import net.bioclipse.managers.business.IBioclipseManager;
 
 @PublishedClass(
-    value="Adds text mining functionality to Bioclipse."
+    value="Adds text mining functionality to Bioclipse.",
+    doi="10.1186/1758-2946-3-41"
 )
 public interface IOscarManager extends IBioclipseManager {
 
